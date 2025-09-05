@@ -1,3 +1,10 @@
+## Week 1 (8/22 - 8/29): Introduction to firmware
+### Resources:
+STM32 Cube IDE: https://www.st.com/en/development-tools/stm32cubeide.html   \
+Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t   \
+"Hello, World!" LED Blinking Project   \
+Debugging Hardware    \
+
 ## Week 2 (8/29 - 9/5): PWM & Motor Control 
 ### Resources: 
 PWM tutorial: https://deepbluembedded.com/stm32-pwm-example-timer-pwm-mode-tutorial/  \
