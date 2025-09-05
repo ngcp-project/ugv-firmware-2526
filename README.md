@@ -3,7 +3,7 @@
 STM32 Cube IDE: https://www.st.com/en/development-tools/stm32cubeide.html   \
 Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t   \
 "Hello, World!" LED Blinking Project   \
-Debugging Hardware    \
+Debugging Hardware    \ 
 
 ## Week 2 (8/29 - 9/5): PWM & Motor Control 
 ### Resources: 
