@@ -10,4 +10,4 @@ Debugging Hardware
 PWM tutorial: https://deepbluembedded.com/stm32-pwm-example-timer-pwm-mode-tutorial/  \
 What is a servo motor?: https://www.youtube.com/watch?v=tHOH-bYjR4k \
 More about PWM: https://www.youtube.com/watch?v=AjN58ceQaF4 \
-Servo motors: https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 
+Servo motor "datasheet": https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 
