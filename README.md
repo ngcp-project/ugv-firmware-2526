@@ -1,7 +1,7 @@
 ## Week 1 (8/22 - 8/29): Introduction
 ### Agenda:
 STM32 Cube IDE: https://www.st.com/en/development-tools/stm32cubeide.html  
-Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t 
+Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t     
 "Hello, World!" LED Blinking Project 
 Debugging Hardware 
 
