@@ -22,4 +22,4 @@ Servo motor "datasheet": https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b
 ### Agenda:
 Introduction to PID Controllers: https://web2.qatar.cmu.edu/~gdicaro/16311-Fall17/slides/PID-without-PhD.pdf \
 TeraTerm download: https://teratermproject.github.io/index-en.html \
-UART Introduction: https://www.circuitbasics.com/basics-uart-communication/ \
+UART Introduction: https://www.circuitbasics.com/basics-uart-communication/
