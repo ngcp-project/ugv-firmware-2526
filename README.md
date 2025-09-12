@@ -17,3 +17,7 @@ Servo motor "datasheet": https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b
 
 ### Tasks:
 **Servo Heading Controller (due 9/12)**: Heading, or steering, is an important vehicle subsystem. Design a servo heading controller that will accept some sort of input and affect  the motor's heading accordingly. An accessible input device to use is a potentiometer. The controller (STM32, etc.) will convert the input into a PWM signal and the output state (motor heading) will reflect the input. This is an open-ended project. Use whichever resources, materials, and tools you need to complete this task. Please collaborate  with each other and ask questions if you need any help or advice.
+
+## Week 3 (9/5 - 9/12): Heading Controller & Feedback Systems
+### Agenda:
+Introduction to PID Controllers: https://web2.qatar.cmu.edu/~gdicaro/16311-Fall17/slides/PID-without-PhD.pdf
