@@ -20,12 +20,18 @@ Servo motor "datasheet": https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b
 
 ## Week 3 (9/5 - 9/12): PID Controller
 ### Agenda:
-Introduction to PID Controllers: https://web2.qatar.cmu.edu/~gdicaro/16311-Fall17/slides/PID-without-PhD.pdf \
+Introduction to PID Controllers: https://www.steppeschool.com/pages/blog/pid-implementation-in-c \
 
 ### Tasks:
 None.
 
-## Week 4 
-
+## Week 4 (9/12 - 9/19): Interrupts, UART, RTOS
+### Agenda:
 TeraTerm download: https://teratermproject.github.io/index-en.html \
-UART Introduction: https://www.circuitbasics.com/basics-uart-communication/
+UART Introduction: https://www.circuitbasics.com/basics-uart-communication/ \
+Interrupts: https://sites.google.com/vt.edu/introduction-to-embeddedsystem/interrupts?authuser=0 \
+RTOS (1): https://controllerstech.com/introduction-to-free-rtos-in-stm32/ \ 
+RTOS (2): https://www.digikey.com/en/maker/projects/getting-started-with-stm32-introduction-to-freertos/ad275395687e4d85935351e16ec575b1
+
+### Tasks:
+**RTOS Research (due 9/26)**: RTOS is tool that can help programmers 
