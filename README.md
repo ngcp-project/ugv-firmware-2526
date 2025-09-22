@@ -31,7 +31,7 @@ TeraTerm download: https://teratermproject.github.io/index-en.html \
 UART Introduction: https://www.circuitbasics.com/basics-uart-communication/ \
 Interrupts: https://sites.google.com/vt.edu/introduction-to-embeddedsystem/interrupts?authuser=0 \
 RTOS (1): https://controllerstech.com/introduction-to-free-rtos-in-stm32/ \
-RTOS (2): https://www.digikey.com/en/maker/projects/getting-started-with-stm32-introduction-to-freertos/ad275395687e4d85935351e16ec575b1 \
+RTOS (2): https://www.digikey.com/en/maker/projects/getting-started-with-stm32-introduction-to-freertos/ad275395687e4d85935351e16ec575b1
 
 ### Tasks:
-**RTOS Research (due 9/26)**: RTOS is tool that can help programmers 
+None.
