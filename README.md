@@ -34,6 +34,6 @@ RTOS (1): https://controllerstech.com/introduction-to-free-rtos-in-stm32/ \
 RTOS (2): https://www.digikey.com/en/maker/projects/getting-started-with-stm32-introduction-to-freertos/ad275395687e4d85935351e16ec575b1
 
 ### Tasks:
-Research RTOS (More information in "Issues" tab.
+Research RTOS (More information in "Issues" tab).
 
 ## Week 5 (9/19 - 9/26): Finer Motor Control
