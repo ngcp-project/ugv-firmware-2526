@@ -2,7 +2,7 @@
 ### Agenda:
 STM32 Cube IDE: https://www.st.com/en/development-tools/stm32cubeide.html  
 Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t     
-"Hello, World!" LED Blinking Project 
+"Hello, World!" LED Blinking Project \
 Debugging Hardware 
 
 ### Tasks:
