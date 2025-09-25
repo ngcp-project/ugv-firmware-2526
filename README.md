@@ -3,7 +3,7 @@
 STM32 Cube IDE: https://www.st.com/en/development-tools/stm32cubeide.html  
 Logic 2: https://www.saleae.com/pages/downloads?srsltid=AfmBOood7jyZQi_EENYTt508wAL6qhVQa0bYkQbjaQslbrUGfjT4sZ6t     
 "Hello, World!" LED Blinking Project \
-Debugging Hardware 
+Logic Analyzer
 
 ### Tasks:
 None.
@@ -37,3 +37,10 @@ RTOS (2): https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i
 Research RTOS (More information in "Issues" tab).
 
 ## Week 5 (9/19 - 9/26): Finer Motor Control
+L298N Motor Driver "datasheet": https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/ \
+DC Motor with Encoder "datasheet": https://www.amazon.com/gp/product/B07GNGQ24C/ref=ox_sc_act_title_1?smid=A15GNHST7KG47K&th=1 \
+PID DC motor control tutorial with Arduino: https://www.youtube.com/watch?v=dTGITLnYAY0&t=567s \
+
+### Tasks:
+Servo Motor Controller
+
