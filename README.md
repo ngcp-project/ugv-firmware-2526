@@ -46,3 +46,6 @@ Quadrature Encoders: https://www.dynapar.com/knowledge/encoder-basics/encoder-ou
 ### Tasks:
 Servo Motor Controller
 
+### Week 6 (9/26 - 10/3): Motor Selection
+BLDC (Brushless DC Motor): https://www.t-drones.com/blog/brushless-motor.html \
+BLDC (2) : https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOooZ3ORpkfI98rc9cLavoaQwo1H4XcE-HBymt3L1Cp4gQLu6pPr7 \
