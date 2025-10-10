@@ -53,5 +53,6 @@ BLDC (2) : https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor
 ### Week 7 (10/3 - 10/10): Motor Selection
 Brushed vs. Brushless: https://www.haydonkerkpittman.com/learningzone/blog/2023/august/what-is-the-difference-between-a-brush-and-a-brushless-motor \
 BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOoqWq_NETmixQYmeUrxTe5eKvhEEDc_DB-MP8JVtY9N6lBMaaFIf \
-Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0
+Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0 \
+Sensors: https://eshop.se.com/in/blog/post/what-is-a-sensor-how-does-it-work-and-what-are-the-various-types-of-sensors.html#:~:text=It%20is%20an%20electronic%20device,devices%20for%20processing%20and%20monitoring.
 
