@@ -51,7 +51,7 @@ BLDC (Brushless DC Motor): https://www.t-drones.com/blog/brushless-motor.html \
 BLDC (2) : https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOooZ3ORpkfI98rc9cLavoaQwo1H4XcE-HBymt3L1Cp4gQLu6pPr7
 
 ### Week 7 (10/3 - 10/10): Motor Selection
-More on Motors: https://assunmotor.com/blog/types-of-brushed-dc-motors/ \
-BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOoqWq_NETmixQYmeUrxTe5eKvhEEDc_DB-MP8JVtY9N6lBMaaFIf \
+Brushed vs. Brushless: https://www.haydonkerkpittman.com/learningzone/blog/2023/august/what-is-the-difference-between-a-brush-and-a-brushless-motor \
+BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOoqWq_NETmixQYmeUrxTe5eKvhEEDc_DB-MP8JVtY9N6lBMaaFIf
 
 
