@@ -52,6 +52,6 @@ BLDC (2) : https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor
 
 ### Week 7 (10/3 - 10/10): Motor Selection
 Brushed vs. Brushless: https://www.haydonkerkpittman.com/learningzone/blog/2023/august/what-is-the-difference-between-a-brush-and-a-brushless-motor \
-BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOoqWq_NETmixQYmeUrxTe5eKvhEEDc_DB-MP8JVtY9N6lBMaaFIf
-
+BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?srsltid=AfmBOoqWq_NETmixQYmeUrxTe5eKvhEEDc_DB-MP8JVtY9N6lBMaaFIf \
+Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0
 
