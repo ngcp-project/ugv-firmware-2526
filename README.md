@@ -20,7 +20,7 @@ Servo motor "datasheet": https://www.amazon.com/dp/B072V529YD?ref=ppx_yo2ov_dt_b
 
 ## Week 3 (9/5 - 9/12): PID Controller
 ### Agenda:
-Introduction to PID Controllers: https://www.steppeschool.com/pages/blog/pid-implementation-in-c \
+Introduction to PID Controllers: https://www.steppeschool.com/pages/blog/pid-implementation-in-c 
 
 ### Tasks:
 None.
@@ -48,7 +48,7 @@ Servo Motor Controller
 
 ### Week 6 (9/26 - 10/3): Motor Selection
 BLDC (Brushless DC Motor): https://www.t-drones.com/blog/brushless-motor.html \
-BLDC (2) : https://www.grainger.com/know-how/equipment/kh-brushless-motors-vs-brushed-motors \
+BLDC (2) : https://www.grainger.com/know-how/equipment/kh-brushless-motors-vs-brushed-motors 
 
 ### Week 7 (10/3 - 10/10): Motor Selection
 Brushed vs. Brushless: https://www.haydonkerkpittman.com/learningzone/blog/2023/august/what-is-the-difference-between-a-brush-and-a-brushless-motor \
@@ -57,5 +57,5 @@ Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0 \
 Sensors: https://eshop.se.com/in/blog/post/what-is-a-sensor-how-does-it-work-and-what-are-the-various-types-of-sensors.html#:~:text=It%20is%20an%20electronic%20device,devices%20for%20processing%20and%20monitoring.
 
 ### Week 8 (10/10 - 10/17): Implementing PID Controller
-PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ \
+PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ 
 
