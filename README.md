@@ -56,3 +56,6 @@ BLDC(3): https://www.tytorobotics.com/blogs/articles/what-is-a-brushless-motor?s
 Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0 \
 Sensors: https://eshop.se.com/in/blog/post/what-is-a-sensor-how-does-it-work-and-what-are-the-various-types-of-sensors.html#:~:text=It%20is%20an%20electronic%20device,devices%20for%20processing%20and%20monitoring.
 
+### Week 8 (10/10 - 10/17): Implementing PID Controller
+PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ \
+
