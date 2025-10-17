@@ -58,6 +58,6 @@ Sensors: https://eshop.se.com/in/blog/post/what-is-a-sensor-how-does-it-work-and
 
 ### Week 8 (10/10 - 10/17): Implementing PID Controller
 PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ \
-Open loop versus closed loop: https://www.geeksforgeeks.org/electronics-engineering/difference-between-open-loop-control-system-and-closed-loop-control-system/ \
-https://www.ni.com/en/shop/labview/pid-theory-explained.html?srsltid=AfmBOorx9J9uzxfjIOKe3h1ymMLGmePPA7SPqc81ndoUZiwYb3uZJbzQ 
+Open loop versus closed loop control: https://www.geeksforgeeks.org/electronics-engineering/difference-between-open-loop-control-system-and-closed-loop-control-system/ \
+PID theory: https://www.ni.com/en/shop/labview/pid-theory-explained.html?srsltid=AfmBOorx9J9uzxfjIOKe3h1ymMLGmePPA7SPqc81ndoUZiwYb3uZJbzQ 
 
