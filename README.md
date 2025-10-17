@@ -41,7 +41,7 @@ L298N Motor Driver "datasheet": https://lastminuteengineers.com/l298n-dc-stepper
 DC Motor with Encoder "datasheet": https://www.amazon.com/gp/product/B07GNGQ24C/ref=ox_sc_act_title_1?smid=A15GNHST7KG47K&th=1 \
 PID DC motor control tutorial with Arduino: https://www.youtube.com/watch?v=dTGITLnYAY0&t=567s \
 Encoder interfacing in STM: https://deepbluembedded.com/stm32-timer-encoder-mode-stm32-rotary-encoder-interfacing/ \
-Quadrature Encoders: https://www.dynapar.com/knowledge/encoder-basics/encoder-output/quadrature-encoders/ \
+Quadrature Encoders: https://www.dynapar.com/knowledge/encoder-basics/encoder-output/quadrature-encoders/ 
 
 ### Tasks:
 Servo Motor Controller
@@ -57,5 +57,7 @@ Brushless ESC: https://www.youtube.com/watch?v=yiD5nCfmbV0 \
 Sensors: https://eshop.se.com/in/blog/post/what-is-a-sensor-how-does-it-work-and-what-are-the-various-types-of-sensors.html#:~:text=It%20is%20an%20electronic%20device,devices%20for%20processing%20and%20monitoring.
 
 ### Week 8 (10/10 - 10/17): Implementing PID Controller
-PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ 
+PID Controller Simulation: https://www.luisllamas.es/en/pid-controller-simulator/ \
+Open loop versus closed loop: https://www.geeksforgeeks.org/electronics-engineering/difference-between-open-loop-control-system-and-closed-loop-control-system/ \
+https://www.ni.com/en/shop/labview/pid-theory-explained.html?srsltid=AfmBOorx9J9uzxfjIOKe3h1ymMLGmePPA7SPqc81ndoUZiwYb3uZJbzQ 
 
