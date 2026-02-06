@@ -1,0 +1,221 @@
+16:26:21 **** Incremental Build of configuration Debug for project SteeringDemo ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/ugv_drivers/uart/uart_utilities.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/uart/uart_utilities.d" -MT"Drivers/ugv_drivers/uart/uart_utilities.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/uart/uart_utilities.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/turret/ugv_turret.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/turret/ugv_turret.d" -MT"Drivers/ugv_drivers/turret/ugv_turret.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/turret/ugv_turret.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/stepper/stepper.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/stepper/stepper.d" -MT"Drivers/ugv_drivers/stepper/stepper.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/stepper/stepper.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/servo/ugv_servo.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/servo/ugv_servo.d" -MT"Drivers/ugv_drivers/servo/ugv_servo.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/servo/ugv_servo.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/linear_actuator/linearactuator.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/linear_actuator/linearactuator.d" -MT"Drivers/ugv_drivers/linear_actuator/linearactuator.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/linear_actuator/linearactuator.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/encoder/ugv_encoder.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/encoder/ugv_encoder.d" -MT"Drivers/ugv_drivers/encoder/ugv_encoder.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/encoder/ugv_encoder.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/drive_motor/motor_control.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/drive_motor/motor_control.d" -MT"Drivers/ugv_drivers/drive_motor/motor_control.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/drive_motor/motor_control.o"
+arm-none-eabi-gcc "../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.d" -MT"Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f7xx.d" -MT"Core/Src/system_stm32f7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f7xx.o"
+In file included from ../Drivers/ugv_drivers/servo/ugv_servo.c:1:
+../Drivers/ugv_drivers/servo/ugv_servo.h:5:9: error: unknown type name 'TIM_HandleTypeDef'
+    5 |         TIM_HandleTypeDef* timerInstance;
+      |         ^~~~~~~~~~~~~~~~~
+In file included from ../Drivers/ugv_drivers/uart/uart_utilities.c:10:
+../Drivers/ugv_drivers/uart/uart_utilities.h:39:31: error: unknown type name 'UART_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   39 | int ugv_uart_getIntegerPolled(UART_HandleTypeDef *huart, int digits);
+      |                               ^~~~~~~~~~~~~~~~~~
+      |                               I2C_HandleTypeDef
+In file included from ../Drivers/ugv_drivers/turret/ugv_turret.h:11,
+                 from ../Drivers/ugv_drivers/turret/ugv_turret.c:8:
+../Drivers/ugv_drivers/turret/../encoder/ugv_encoder.h:41:19: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   41 | void initEncoders(TIM_HandleTypeDef *htim, EncoderVals *Vals);
+      |                   ^~~~~~~~~~~~~~~~~
+      |                   I2C_HandleTypeDef
+In file included from ../Drivers/ugv_drivers/turret/ugv_turret.h:12:
+../Drivers/ugv_drivers/turret/../drive_motor/ugv_drive_motor_utilities.h:10:9: error: unknown type name 'TIM_HandleTypeDef'
+   10 |         TIM_HandleTypeDef *timer;
+      |         ^~~~~~~~~~~~~~~~~
+In file included from ../Drivers/ugv_drivers/linear_actuator/linearactuator.h:4,
+                 from ../Drivers/ugv_drivers/linear_actuator/linearactuator.c:1:
+../Drivers/ugv_drivers/linear_actuator/../drive_motor/ugv_drive_motor_utilities.h:10:9: error: unknown type name 'TIM_HandleTypeDef'
+   10 |         TIM_HandleTypeDef *timer;
+      |         ^~~~~~~~~~~~~~~~~
+In file included from ../Drivers/ugv_drivers/stepper/stepper.c:8:
+../Drivers/ugv_drivers/stepper/stepper.h:91:9: error: unknown type name 'UART_HandleTypeDef'
+   91 |         UART_HandleTypeDef *UART_handle;
+      |         ^~~~~~~~~~~~~~~~~~
+../Drivers/ugv_drivers/servo/ugv_servo.c: In function 'ugv_servoInitServo':
+../Drivers/ugv_drivers/servo/ugv_servo.c:5:9: warning: implicit declaration of function 'HAL_TIM_PWM_Start'; did you mean 'HAL_DMA_Start'? [-Wimplicit-function-declaration]
+    5 |         HAL_TIM_PWM_Start(servoM->timerInstance, servoM->timerCh);
+      |         ^~~~~~~~~~~~~~~~~
+      |         HAL_DMA_Start
+../Drivers/ugv_drivers/uart/uart_utilities.c:23:31: error: unknown type name 'UART_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   23 | int ugv_uart_getIntegerPolled(UART_HandleTypeDef *huartInst, int digits)
+      |                               ^~~~~~~~~~~~~~~~~~
+      |                               I2C_HandleTypeDef
+make: *** [Drivers/ugv_drivers/servo/subdir.mk:19: Drivers/ugv_drivers/servo/ugv_servo.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Drivers/ugv_drivers/drive_motor/motor_control.c:1:
+../Drivers/ugv_drivers/drive_motor/motor_control.h:9:5: error: unknown type name 'TIM_HandleTypeDef'
+    9 |     TIM_HandleTypeDef* htim; // Timer for PWM control
+      |     ^~~~~~~~~~~~~~~~~
+make: *** [Drivers/ugv_drivers/uart/subdir.mk:19: Drivers/ugv_drivers/uart/uart_utilities.o] Error 1
+../Drivers/ugv_drivers/turret/../drive_motor/ugv_drive_motor_utilities.h:53:47: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   53 | void ugv_init_PWM(ugv_DriveMotor_t *drivePtr, TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y);
+      |                                               ^~~~~~~~~~~~~~~~~
+      |                                               I2C_HandleTypeDef
+../Drivers/ugv_drivers/linear_actuator/../drive_motor/ugv_drive_motor_utilities.h:53:47: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   53 | void ugv_init_PWM(ugv_DriveMotor_t *drivePtr, TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y);
+      |                                               ^~~~~~~~~~~~~~~~~
+      |                                               I2C_HandleTypeDef
+In file included from ../Drivers/ugv_drivers/encoder/ugv_encoder.c:10:
+../Drivers/ugv_drivers/encoder/ugv_encoder.h:41:19: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   41 | void initEncoders(TIM_HandleTypeDef *htim, EncoderVals *Vals);
+      |                   ^~~~~~~~~~~~~~~~~
+      |                   I2C_HandleTypeDef
+In file included from ../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:8:
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.h:10:9: error: unknown type name 'TIM_HandleTypeDef'
+   10 |         TIM_HandleTypeDef *timer;
+      |         ^~~~~~~~~~~~~~~~~
+../Drivers/ugv_drivers/stepper/stepper.c: In function 'getStatus':
+../Drivers/ugv_drivers/stepper/stepper.c:70:11: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+   70 |           HAL_UART_Transmit(stepper->UART_handle, (uint8_t *)uart_buf, uart_buf_len, 100);
+      |           ^~~~~~~~~~~~~~~~~
+../Drivers/ugv_drivers/stepper/stepper.c: In function 'stepperMoveUpdate':
+../Drivers/ugv_drivers/stepper/stepper.c:166:17: warning: variable 'successFlag' set but not used [-Wunused-but-set-variable]
+  166 |         uint8_t successFlag = 0;
+      |                 ^~~~~~~~~~~
+../Drivers/ugv_drivers/drive_motor/motor_control.h:14:45: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   14 | void MotorControl_Init(MotorControl* motor, TIM_HandleTypeDef* timer, uint8_t channel_1, uint8_t channel_2);
+      |                                             ^~~~~~~~~~~~~~~~~
+      |                                             I2C_HandleTypeDef
+../Core/Src/main.c:24:10: fatal error: Drivers/ugv_servo.h: No such file or directory
+   24 | #include "Drivers/ugv_servo.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/ugv_drivers/stepper/subdir.mk:19: Drivers/ugv_drivers/stepper/stepper.o] Error 1
+../Drivers/ugv_drivers/encoder/ugv_encoder.c:12:19: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   12 | void initEncoders(TIM_HandleTypeDef *htim, EncoderVals *Vals){
+      |                   ^~~~~~~~~~~~~~~~~
+      |                   I2C_HandleTypeDef
+../Drivers/ugv_drivers/linear_actuator/linearactuator.h:50:59: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   50 | void ugv_initPWMLA(ugvlinearActuatorPWM_t* linearActuator,TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y);
+      |                                                           ^~~~~~~~~~~~~~~~~
+      |                                                           I2C_HandleTypeDef
+../Drivers/ugv_drivers/turret/ugv_turret.h:52:60: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   52 | void ugv_initTurret(ugvTurret_t* turret, EncoderVals* enc, TIM_HandleTypeDef *htim_enc,
+      |                                                            ^~~~~~~~~~~~~~~~~
+      |                                                            I2C_HandleTypeDef
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.h:53:47: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   53 | void ugv_init_PWM(ugv_DriveMotor_t *drivePtr, TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y);
+      |                                               ^~~~~~~~~~~~~~~~~
+      |                                               I2C_HandleTypeDef
+../Drivers/ugv_drivers/drive_motor/motor_control.h:15:49: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   15 | void MotorControl_SetSpeed(MotorControl* motor, TIM_HandleTypeDef* htim, float input_speed);
+      |                                                 ^~~~~~~~~~~~~~~~~
+      |                                                 I2C_HandleTypeDef
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** [Drivers/ugv_drivers/encoder/subdir.mk:19: Drivers/ugv_drivers/encoder/ugv_encoder.o] Error 1
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:11:47: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   11 | void ugv_init_PWM(ugv_DriveMotor_t *drivePtr, TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y)
+      |                                               ^~~~~~~~~~~~~~~~~
+      |                                               I2C_HandleTypeDef
+../Drivers/ugv_drivers/turret/ugv_turret.h:53:58: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   53 |                 ugv_PWM_t* pwm, ugv_DriveMotor_t* motor, TIM_HandleTypeDef *htim_mtr, uint16_t channel_x, uint16_t channel_y);
+      |                                                          ^~~~~~~~~~~~~~~~~
+      |                                                          I2C_HandleTypeDef
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c: In function 'ugv_drive_direction_control':
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:33:63: error: request for member 'Instance' in something not a structure or union
+   33 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR1 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:36:63: error: request for member 'Instance' in something not a structure or union
+   36 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR2 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:39:63: error: request for member 'Instance' in something not a structure or union
+   39 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR3 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:42:63: error: request for member 'Instance' in something not a structure or union
+   42 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR4 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:4:17: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+    4 |                 TIM_HandleTypeDef *htimerx, uint16_t channel_x, uint16_t channel_y) {
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 I2C_HandleTypeDef
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:45:63: error: request for member 'Instance' in something not a structure or union
+   45 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR5 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:48:63: error: request for member 'Instance' in something not a structure or union
+   48 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR6 = dutyCycle;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:57:63: error: request for member 'Instance' in something not a structure or union
+   57 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR1 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:60:63: error: request for member 'Instance' in something not a structure or union
+   60 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR2 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:63:63: error: request for member 'Instance' in something not a structure or union
+   63 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR3 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:66:63: error: request for member 'Instance' in something not a structure or union
+   66 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR4 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:69:63: error: request for member 'Instance' in something not a structure or union
+   69 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR5 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:72:63: error: request for member 'Instance' in something not a structure or union
+   72 |                                 drivePtr -> drivePWM -> timer -> Instance -> CCR6 = 0;
+      |                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:86:71: error: request for member 'Instance' in something not a structure or union
+   86 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR1 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/motor_control.c:5:45: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+    5 | void MotorControl_Init(MotorControl* motor, TIM_HandleTypeDef* timer, uint8_t channel_1, uint8_t channel_2) {
+      |                                             ^~~~~~~~~~~~~~~~~
+      |                                             I2C_HandleTypeDef
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:90:71: error: request for member 'Instance' in something not a structure or union
+   90 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR2 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:93:71: error: request for member 'Instance' in something not a structure or union
+   93 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR3 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:96:71: error: request for member 'Instance' in something not a structure or union
+   96 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR4 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:99:71: error: request for member 'Instance' in something not a structure or union
+   99 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR5 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:102:71: error: request for member 'Instance' in something not a structure or union
+  102 |                                         drivePtr -> drivePWM -> timer -> Instance -> CCR6 = dutyCycle;
+      |                                                                       ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:111:79: error: request for member 'Instance' in something not a structure or union
+  111 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR1 = 0;
+      |                                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:114:79: error: request for member 'Instance' in something not a structure or union
+  114 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR2 = 0;
+      |                                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:117:79: error: request for member 'Instance' in something not a structure or union
+  117 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR3 = 0;
+      |                                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:120:79: error: request for member 'Instance' in something not a structure or union
+  120 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR4 = 0;
+      |                                                                               ^~
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:123:79: error: request for member 'Instance' in something not a structure or union
+  123 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR5 = 0;
+      |                                                                               ^~
+make: *** [Drivers/ugv_drivers/linear_actuator/subdir.mk:19: Drivers/ugv_drivers/linear_actuator/linearactuator.o] Error 1
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:126:79: error: request for member 'Instance' in something not a structure or union
+  126 |                                                 drivePtr -> drivePWM -> timer -> Instance -> CCR6 = 0;
+      |                                                                               ^~
+../Drivers/ugv_drivers/turret/ugv_turret.c:10:60: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   10 | void ugv_initTurret(ugvTurret_t* turret, EncoderVals* enc, TIM_HandleTypeDef *htim_enc,
+      |                                                            ^~~~~~~~~~~~~~~~~
+      |                                                            I2C_HandleTypeDef
+make: *** [Drivers/ugv_drivers/drive_motor/subdir.mk:22: Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.o] Error 1
+../Drivers/ugv_drivers/drive_motor/motor_control.c:13:49: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   13 | void MotorControl_SetSpeed(MotorControl* motor, TIM_HandleTypeDef* htim, float duty_cycle) {
+      |                                                 ^~~~~~~~~~~~~~~~~
+      |                                                 I2C_HandleTypeDef
+../Drivers/ugv_drivers/turret/ugv_turret.c:11:58: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'I2C_HandleTypeDef'?
+   11 |                 ugv_PWM_t* pwm, ugv_DriveMotor_t* motor, TIM_HandleTypeDef *htim_mtr, uint16_t channel_x, uint16_t channel_y){
+      |                                                          ^~~~~~~~~~~~~~~~~
+      |                                                          I2C_HandleTypeDef
+make: *** [Drivers/ugv_drivers/drive_motor/subdir.mk:22: Drivers/ugv_drivers/drive_motor/motor_control.o] Error 1
+make: *** [Drivers/ugv_drivers/turret/subdir.mk:19: Drivers/ugv_drivers/turret/ugv_turret.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+16:26:21 Build Failed. 60 errors, 3 warnings. (took 868ms)
+

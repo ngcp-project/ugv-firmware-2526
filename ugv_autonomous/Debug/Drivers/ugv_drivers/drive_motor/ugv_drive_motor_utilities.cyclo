@@ -1,0 +1,2 @@
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:11:6:ugv_init_PWM	1
+../Drivers/ugv_drivers/drive_motor/ugv_drive_motor_utilities.c:23:6:ugv_drive_direction_control	20

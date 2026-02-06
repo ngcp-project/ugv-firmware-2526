@@ -1,0 +1,9 @@
+../Drivers/ugv_drivers/stepper/stepper.c:28:6:SCS_High	16	static
+../Drivers/ugv_drivers/stepper/stepper.c:33:6:SCS_Low	16	static
+../Drivers/ugv_drivers/stepper/stepper.c:58:6:getStatus	80	static
+../Drivers/ugv_drivers/stepper/stepper.c:81:9:commandAngle	32	static
+../Drivers/ugv_drivers/stepper/stepper.c:149:6:stepperGoToAngle	24	static
+../Drivers/ugv_drivers/stepper/stepper.c:163:6:stepperMoveUpdate	24	static
+../Drivers/ugv_drivers/stepper/stepper.c:187:9:stepperChangeStepSize	24	static
+../Drivers/ugv_drivers/stepper/stepper.c:210:6:stepperCurrentAngleCalc	16	static
+../Drivers/ugv_drivers/stepper/stepper.c:246:9:chooseBehavior	24	static

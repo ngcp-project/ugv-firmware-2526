@@ -1,0 +1,16 @@
+../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	24	static,ignoring_inline_asm
+../Core/Src/main.c:113:5:main	8	static
+../Core/Src/main.c:223:6:SystemClock_Config	88	static
+../Core/Src/main.c:277:13:MX_TIM1_Init	40	static
+../Core/Src/main.c:324:13:MX_TIM2_Init	48	static
+../Core/Src/main.c:377:13:MX_TIM10_Init	40	static
+../Core/Src/main.c:423:13:MX_TIM13_Init	8	static
+../Core/Src/main.c:454:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:489:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:561:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:577:6:udp_client_connect	24	static
+../Core/Src/main.c:616:13:udp_client_send	120	static
+../Core/Src/main.c:639:6:udp_receive_callback	80	static
+../Core/Src/main.c:686:6:MPU_Config	24	static
+../Core/Src/main.c:717:6:Error_Handler	4	static,ignoring_inline_asm

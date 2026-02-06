@@ -1,0 +1,5 @@
+../Drivers/ugv_drivers/turret/ugv_turret.c:10:6:ugv_initTurret	1
+../Drivers/ugv_drivers/turret/ugv_turret.c:32:6:ugv_updateTurret	2
+../Drivers/ugv_drivers/turret/ugv_turret.c:61:6:ugv_turret_dir_cntrl	2
+../Drivers/ugv_drivers/turret/ugv_turret.c:86:6:ugv_turret_moveToAngle	1
+../Drivers/ugv_drivers/turret/ugv_turret.c:92:6:ugv_turret_setOrigin	1
