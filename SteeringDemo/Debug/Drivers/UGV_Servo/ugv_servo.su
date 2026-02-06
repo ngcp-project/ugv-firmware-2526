@@ -1,0 +1,2 @@
+../Drivers/UGV_Servo/ugv_servo.c:4:6:ugv_servoInitServo	16	static
+../Drivers/UGV_Servo/ugv_servo.c:18:6:ugv_servoSetAngle	24	static

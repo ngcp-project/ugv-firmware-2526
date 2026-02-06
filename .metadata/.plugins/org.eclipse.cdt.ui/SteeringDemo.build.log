@@ -1,0 +1,10 @@
+14:27:42 **** Incremental Build of configuration Debug for project SteeringDemo ****
+make -j22 all 
+arm-none-eabi-size  SteeringDemo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10384	     12	   1644	  12040	   2f08	SteeringDemo.elf
+Finished building: default.size.stdout
+ 
+
+14:27:42 Build Finished. 0 errors, 0 warnings. (took 412ms)
+

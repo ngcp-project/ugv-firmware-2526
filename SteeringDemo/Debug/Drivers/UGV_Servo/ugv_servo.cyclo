@@ -1,0 +1,2 @@
+../Drivers/UGV_Servo/ugv_servo.c:4:6:ugv_servoInitServo	1
+../Drivers/UGV_Servo/ugv_servo.c:18:6:ugv_servoSetAngle	3

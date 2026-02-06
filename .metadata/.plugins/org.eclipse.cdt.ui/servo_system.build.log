@@ -1,0 +1,10 @@
+14:27:19 **** Incremental Build of configuration Debug for project servo_system ****
+make -j22 all 
+arm-none-eabi-size  servo_system.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10380	     12	   1660	  12052	   2f14	servo_system.elf
+Finished building: default.size.stdout
+ 
+
+14:27:20 Build Finished. 0 errors, 0 warnings. (took 396ms)
+

@@ -1,0 +1,10 @@
+14:27:19 **** Incremental Build of configuration Debug for project pwm_servo_controller ****
+make -j22 all 
+arm-none-eabi-size  pwm_servo_controller.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13560	     20	   1716	  15296	   3bc0	pwm_servo_controller.elf
+Finished building: default.size.stdout
+ 
+
+14:27:19 Build Finished. 0 errors, 0 warnings. (took 385ms)
+

@@ -1,0 +1,3 @@
+../Drivers/ugv_drivers/encoder/ugv_encoder.c:12:6:initEncoders	1
+../Drivers/ugv_drivers/encoder/ugv_encoder.c:27:6:readEncoder	3
+../Drivers/ugv_drivers/encoder/ugv_encoder.c:79:6:updateTravel	6

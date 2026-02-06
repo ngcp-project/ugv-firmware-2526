@@ -1,0 +1,10 @@
+14:27:18 **** Incremental Build of configuration Debug for project ngcp_ugv_controls_mcu_ ****
+make -j22 all 
+arm-none-eabi-size  ngcp_ugv_controls_mcu_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24640	    336	  19536	  44512	   ade0	ngcp_ugv_controls_mcu_.elf
+Finished building: default.size.stdout
+ 
+
+14:27:18 Build Finished. 0 errors, 0 warnings. (took 455ms)
+

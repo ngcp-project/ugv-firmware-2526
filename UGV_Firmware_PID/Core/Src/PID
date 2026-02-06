@@ -1,0 +1,8 @@
+#ifndef INC_UGV_PID_H_
+#define INC_UGV_PID_H_
+
+#include "main.h"
+
+float PID_controller_1(float set_value, float process_value, float Kp, float Ki, float Kd, float limit);
+
+#endif /* INC_UGV_PID_H_ */

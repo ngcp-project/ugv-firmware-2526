@@ -1,0 +1,5 @@
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:3:6:ugv_initPWMLA	1
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:14:6:ugv_movePWMLA	6
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:34:6:ugv_checkPWMLA	3
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:50:6:ugv_moveGPIOLA	4
+../Drivers/ugv_drivers/linear_actuator/linearactuator.c:68:6:ugv_checkGPIOLA	2
