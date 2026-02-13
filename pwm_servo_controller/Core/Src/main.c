@@ -104,7 +104,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
-	  TIM3->CCR1 += (rd ? 375 : -375);
+	  TIM3->CCR1 += (rd ? 350 : -350);
 	  // Adjusts duty cycle by 1.25% every second
 	  if(TIM3->CCR1 >= 3750){
 		  rd = 0;
