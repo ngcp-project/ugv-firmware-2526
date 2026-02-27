@@ -103,8 +103,8 @@ all: main-build
 main-build: ugv_manual.elf secondary-outputs
 
 # Tool invocations
-ugv_manual.elf ugv_manual.map: $(OBJS) $(USER_OBJS) /home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "ugv_manual.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ugv_manual.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+ugv_manual.elf ugv_manual.map: $(OBJS) $(USER_OBJS) C:\Users\djspe\ugv-firmware-2526\ugv-firmware-main\ugv_manual\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "ugv_manual.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\djspe\ugv-firmware-2526\ugv-firmware-main\ugv_manual\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ugv_manual.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

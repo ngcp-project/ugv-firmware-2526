@@ -43,13 +43,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  19 .debug_macro  00035038  00000000  00000000  0005de6a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line   0002af1d  00000000  00000000  00092ea2  2**0
+ 20 .debug_line   0002ce96  00000000  00000000  00092ea2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    0011466b  00000000  00000000  000bddbf  2**0
+ 21 .debug_str    00114671  00000000  00000000  000bfd38  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_frame  00007ee8  00000000  00000000  001d242c  2**2
+ 22 .debug_frame  00007ee8  00000000  00000000  001d43ac  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_line_str 0000006a  00000000  00000000  001da314  2**0
+ 23 .debug_line_str 00000070  00000000  00000000  001dc294  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -453,8 +453,8 @@ Disassembly of section .text:
  800065e:	bf08      	it	eq
  8000660:	2800      	cmpeq	r0, #0
  8000662:	bf1c      	itt	ne
- 8000664:	f04f 31ff 	movne.w	r1, #4294967295	; 0xffffffff
- 8000668:	f04f 30ff 	movne.w	r0, #4294967295	; 0xffffffff
+ 8000664:	f04f 31ff 	movne.w	r1, #4294967295
+ 8000668:	f04f 30ff 	movne.w	r0, #4294967295
  800066c:	f000 b9a8 	b.w	80009c0 <__aeabi_idiv0>
  8000670:	f1ad 0c08 	sub.w	ip, sp, #8
  8000674:	e96d ce04 	strd	ip, lr, [sp, #-16]!
@@ -529,7 +529,7 @@ Disassembly of section .text:
  8000740:	4290      	cmp	r0, r2
  8000742:	d90a      	bls.n	800075a <__udivmoddi4+0x62>
  8000744:	eb1c 0202 	adds.w	r2, ip, r2
- 8000748:	f101 37ff 	add.w	r7, r1, #4294967295	; 0xffffffff
+ 8000748:	f101 37ff 	add.w	r7, r1, #4294967295
  800074c:	f080 811c 	bcs.w	8000988 <__udivmoddi4+0x290>
  8000750:	4290      	cmp	r0, r2
  8000752:	f240 8119 	bls.w	8000988 <__udivmoddi4+0x290>
@@ -544,7 +544,7 @@ Disassembly of section .text:
  800076e:	42a5      	cmp	r5, r4
  8000770:	d90a      	bls.n	8000788 <__udivmoddi4+0x90>
  8000772:	eb1c 0404 	adds.w	r4, ip, r4
- 8000776:	f100 32ff 	add.w	r2, r0, #4294967295	; 0xffffffff
+ 8000776:	f100 32ff 	add.w	r2, r0, #4294967295
  800077a:	f080 8107 	bcs.w	800098c <__udivmoddi4+0x294>
  800077e:	42a5      	cmp	r5, r4
  8000780:	f240 8104 	bls.w	800098c <__udivmoddi4+0x294>
@@ -598,7 +598,7 @@ Disassembly of section .text:
  8000806:	4290      	cmp	r0, r2
  8000808:	d908      	bls.n	800081c <__udivmoddi4+0x124>
  800080a:	eb1c 0202 	adds.w	r2, ip, r2
- 800080e:	f105 38ff 	add.w	r8, r5, #4294967295	; 0xffffffff
+ 800080e:	f105 38ff 	add.w	r8, r5, #4294967295
  8000812:	d202      	bcs.n	800081a <__udivmoddi4+0x122>
  8000814:	4290      	cmp	r0, r2
  8000816:	f200 80cb 	bhi.w	80009b0 <__udivmoddi4+0x2b8>
@@ -612,7 +612,7 @@ Disassembly of section .text:
  8000830:	45a6      	cmp	lr, r4
  8000832:	d908      	bls.n	8000846 <__udivmoddi4+0x14e>
  8000834:	eb1c 0404 	adds.w	r4, ip, r4
- 8000838:	f100 32ff 	add.w	r2, r0, #4294967295	; 0xffffffff
+ 8000838:	f100 32ff 	add.w	r2, r0, #4294967295
  800083c:	d202      	bcs.n	8000844 <__udivmoddi4+0x14c>
  800083e:	45a6      	cmp	lr, r4
  8000840:	f200 80bb 	bhi.w	80009ba <__udivmoddi4+0x2c2>
@@ -640,7 +640,7 @@ Disassembly of section .text:
  800088a:	fa00 f001 	lsl.w	r0, r0, r1
  800088e:	d90b      	bls.n	80008a8 <__udivmoddi4+0x1b0>
  8000890:	eb1c 0404 	adds.w	r4, ip, r4
- 8000894:	f108 3aff 	add.w	sl, r8, #4294967295	; 0xffffffff
+ 8000894:	f108 3aff 	add.w	sl, r8, #4294967295
  8000898:	f080 8088 	bcs.w	80009ac <__udivmoddi4+0x2b4>
  800089c:	42a5      	cmp	r5, r4
  800089e:	f240 8085 	bls.w	80009ac <__udivmoddi4+0x2b4>
@@ -655,7 +655,7 @@ Disassembly of section .text:
  80008bc:	45a6      	cmp	lr, r4
  80008be:	d908      	bls.n	80008d2 <__udivmoddi4+0x1da>
  80008c0:	eb1c 0404 	adds.w	r4, ip, r4
- 80008c4:	f103 35ff 	add.w	r5, r3, #4294967295	; 0xffffffff
+ 80008c4:	f103 35ff 	add.w	r5, r3, #4294967295
  80008c8:	d26c      	bcs.n	80009a4 <__udivmoddi4+0x2ac>
  80008ca:	45a6      	cmp	lr, r4
  80008cc:	d96a      	bls.n	80009a4 <__udivmoddi4+0x2ac>
@@ -697,7 +697,7 @@ Disassembly of section .text:
  8000938:	fa04 f403 	lsl.w	r4, r4, r3
  800093c:	d908      	bls.n	8000950 <__udivmoddi4+0x258>
  800093e:	eb1c 0101 	adds.w	r1, ip, r1
- 8000942:	f100 38ff 	add.w	r8, r0, #4294967295	; 0xffffffff
+ 8000942:	f100 38ff 	add.w	r8, r0, #4294967295
  8000946:	d22f      	bcs.n	80009a8 <__udivmoddi4+0x2b0>
  8000948:	428d      	cmp	r5, r1
  800094a:	d92d      	bls.n	80009a8 <__udivmoddi4+0x2b0>
@@ -712,7 +712,7 @@ Disassembly of section .text:
  8000964:	4291      	cmp	r1, r2
  8000966:	d908      	bls.n	800097a <__udivmoddi4+0x282>
  8000968:	eb1c 0202 	adds.w	r2, ip, r2
- 800096c:	f105 38ff 	add.w	r8, r5, #4294967295	; 0xffffffff
+ 800096c:	f105 38ff 	add.w	r8, r5, #4294967295
  8000970:	d216      	bcs.n	80009a0 <__udivmoddi4+0x2a8>
  8000972:	4291      	cmp	r1, r2
  8000974:	d914      	bls.n	80009a0 <__udivmoddi4+0x2a8>
@@ -3119,7 +3119,7 @@ int _kill(int pid, int sig)
  80016cc:	2216      	movs	r2, #22
  80016ce:	601a      	str	r2, [r3, #0]
   return -1;
- 80016d0:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 80016d0:	f04f 33ff 	mov.w	r3, #4294967295
 }
  80016d4:	4618      	mov	r0, r3
  80016d6:	370c      	adds	r7, #12
@@ -3137,7 +3137,7 @@ void _exit (int status)
  80016e8:	af00      	add	r7, sp, #0
  80016ea:	6078      	str	r0, [r7, #4]
   _kill(status, -1);
- 80016ec:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+ 80016ec:	f04f 31ff 	mov.w	r1, #4294967295
  80016f0:	6878      	ldr	r0, [r7, #4]
  80016f2:	f7ff ffe5 	bl	80016c0 <_kill>
   while (1) {}    /* Make sure we hang here */
@@ -3240,7 +3240,7 @@ int _close(int file)
  8001770:	6078      	str	r0, [r7, #4]
   (void)file;
   return -1;
- 8001772:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8001772:	f04f 33ff 	mov.w	r3, #4294967295
 }
  8001776:	4618      	mov	r0, r3
  8001778:	370c      	adds	r7, #12
@@ -3365,7 +3365,7 @@ void *_sbrk(ptrdiff_t incr)
  8001806:	220c      	movs	r2, #12
  8001808:	601a      	str	r2, [r3, #0]
     return (void *)-1;
- 800180a:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800180a:	f04f 33ff 	mov.w	r3, #4294967295
  800180e:	e009      	b.n	8001824 <_sbrk+0x50>
   }
 
@@ -3556,7 +3556,7 @@ int32_t  LAN8742_RegisterBusIO(lan8742_Object_t *pObj, lan8742_IOCtx_t *ioctx)
  80018e0:	d102      	bne.n	80018e8 <LAN8742_RegisterBusIO+0x2e>
   {
     return LAN8742_STATUS_ERROR;
- 80018e2:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 80018e2:	f04f 33ff 	mov.w	r3, #4294967295
  80018e6:	e014      	b.n	8001912 <LAN8742_RegisterBusIO+0x58>
   }
 
@@ -4012,7 +4012,7 @@ __weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
     HAL_NVIC_SetPriority(SysTick_IRQn, TickPriority, 0U);
  8001b28:	2200      	movs	r2, #0
  8001b2a:	6879      	ldr	r1, [r7, #4]
- 8001b2c:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8001b2c:	f04f 30ff 	mov.w	r0, #4294967295
  8001b30:	f000 f92f 	bl	8001d92 <HAL_NVIC_SetPriority>
     uwTickPrio = TickPriority;
  8001b34:	4a06      	ldr	r2, [pc, #24]	; (8001b50 <HAL_InitTick+0x5c>)
@@ -4105,7 +4105,7 @@ __weak void HAL_Delay(uint32_t Delay)
   /* Add a freq to guarantee minimum wait */
   if (wait < HAL_MAX_DELAY)
  8001ba6:	68fb      	ldr	r3, [r7, #12]
- 8001ba8:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 8001ba8:	f1b3 3fff 	cmp.w	r3, #4294967295
  8001bac:	d005      	beq.n	8001bba <HAL_Delay+0x26>
   {
     wait += (uint32_t)(uwTickFreq);
@@ -4297,7 +4297,7 @@ __weak void HAL_Delay(uint32_t Delay)
  8001d00:	2300      	movs	r3, #0
  8001d02:	617b      	str	r3, [r7, #20]
            ((PreemptPriority & (uint32_t)((1UL << (PreemptPriorityBits)) - 1UL)) << SubPriorityBits) |
- 8001d04:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 8001d04:	f04f 32ff 	mov.w	r2, #4294967295
  8001d08:	69bb      	ldr	r3, [r7, #24]
  8001d0a:	fa02 f303 	lsl.w	r3, r2, r3
  8001d0e:	43da      	mvns	r2, r3
@@ -4306,7 +4306,7 @@ __weak void HAL_Delay(uint32_t Delay)
  8001d14:	697b      	ldr	r3, [r7, #20]
  8001d16:	409a      	lsls	r2, r3
            ((SubPriority     & (uint32_t)((1UL << (SubPriorityBits    )) - 1UL)))
- 8001d18:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+ 8001d18:	f04f 31ff 	mov.w	r1, #4294967295
  8001d1c:	697b      	ldr	r3, [r7, #20]
  8001d1e:	fa01 f303 	lsl.w	r3, r1, r3
  8001d22:	43d9      	mvns	r1, r3
@@ -4351,7 +4351,7 @@ __STATIC_INLINE uint32_t SysTick_Config(uint32_t ticks)
  8001d54:	6053      	str	r3, [r2, #4]
   NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
  8001d56:	210f      	movs	r1, #15
- 8001d58:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8001d58:	f04f 30ff 	mov.w	r0, #4294967295
  8001d5c:	f7ff ff8e 	bl	8001c7c <__NVIC_SetPriority>
   SysTick->VAL   = 0UL;                                             /* Load the SysTick Counter Value */
  8001d60:	4b05      	ldr	r3, [pc, #20]	; (8001d78 <SysTick_Config+0x40>)
@@ -5296,7 +5296,7 @@ HAL_StatusTypeDef HAL_ETH_Transmit(ETH_HandleTypeDef *heth, ETH_TxPacketConfigTy
       /* Check for the Timeout */
       if (Timeout != HAL_MAX_DELAY)
  800226c:	687b      	ldr	r3, [r7, #4]
- 800226e:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 800226e:	f1b3 3fff 	cmp.w	r3, #4294967295
  8002272:	d018      	beq.n	80022a6 <HAL_ETH_Transmit+0x112>
       {
         if (((HAL_GetTick() - tickstart) > Timeout) || (Timeout == 0U))
@@ -16721,7 +16721,7 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
     /* Check for the Timeout */
     if (Timeout != HAL_MAX_DELAY)
  80064c6:	69bb      	ldr	r3, [r7, #24]
- 80064c8:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 80064c8:	f1b3 3fff 	cmp.w	r3, #4294967295
  80064cc:	d04b      	beq.n	8006566 <UART_WaitOnFlagUntilTimeout+0xb2>
     {
       if (((HAL_GetTick() - Tickstart) > Timeout) || (Timeout == 0U))
@@ -18611,7 +18611,7 @@ int32_t ETH_PHY_IO_ReadReg(uint32_t DevAddr, uint32_t RegAddr, uint32_t *pRegVal
  80070f0:	d002      	beq.n	80070f8 <ETH_PHY_IO_ReadReg+0x24>
   {
     return -1;
- 80070f2:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 80070f2:	f04f 33ff 	mov.w	r3, #4294967295
  80070f6:	e000      	b.n	80070fa <ETH_PHY_IO_ReadReg+0x26>
   }
 
@@ -18649,7 +18649,7 @@ int32_t ETH_PHY_IO_WriteReg(uint32_t DevAddr, uint32_t RegAddr, uint32_t RegVal)
  8007124:	d002      	beq.n	800712c <ETH_PHY_IO_WriteReg+0x24>
   {
     return -1;
- 8007126:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8007126:	f04f 33ff 	mov.w	r3, #4294967295
  800712a:	e000      	b.n	800712e <ETH_PHY_IO_WriteReg+0x26>
   }
 
@@ -24546,7 +24546,7 @@ tcp_close_shutdown_fin(struct tcp_pcb *pcb)
  8009308:	e00d      	b.n	8009326 <tcp_close_shutdown_fin+0xba>
   } else if (err == ERR_MEM) {
  800930a:	f997 300f 	ldrsb.w	r3, [r7, #15]
- 800930e:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 800930e:	f1b3 3fff 	cmp.w	r3, #4294967295
  8009312:	d108      	bne.n	8009326 <tcp_close_shutdown_fin+0xba>
     /* Mark this pcb for closing. Closing is retried from tcp_tmr. */
     tcp_set_flags(pcb, TF_CLOSEPEND);
@@ -29234,7 +29234,7 @@ tcp_listen_input(struct tcp_pcb_listen *pcb)
  800af80:	699b      	ldr	r3, [r3, #24]
  800af82:	687a      	ldr	r2, [r7, #4]
  800af84:	6910      	ldr	r0, [r2, #16]
- 800af86:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 800af86:	f04f 32ff 	mov.w	r2, #4294967295
  800af8a:	2100      	movs	r1, #0
  800af8c:	4798      	blx	r3
  800af8e:	4603      	mov	r3, r0
@@ -33775,7 +33775,7 @@ tcp_split_unsent_seg(struct tcp_pcb *pcb, u16_t split)
  800ce14:	2b00      	cmp	r3, #0
  800ce16:	d102      	bne.n	800ce1e <tcp_split_unsent_seg+0x3e>
     return ERR_MEM;
- 800ce18:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800ce18:	f04f 33ff 	mov.w	r3, #4294967295
  800ce1c:	e116      	b.n	800d04c <tcp_split_unsent_seg+0x26c>
   }
 
@@ -34123,7 +34123,7 @@ memerr:
   }
 
   return ERR_MEM;
- 800d048:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800d048:	f04f 33ff 	mov.w	r3, #4294967295
 }
  800d04c:	4618      	mov	r0, r3
  800d04e:	3724      	adds	r7, #36	; 0x24
@@ -34324,7 +34324,7 @@ tcp_enqueue_flags(struct tcp_pcb *pcb, u8_t flags)
  800d18e:	835a      	strh	r2, [r3, #26]
     TCP_STATS_INC(tcp.memerr);
     return ERR_MEM;
- 800d190:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800d190:	f04f 33ff 	mov.w	r3, #4294967295
  800d194:	e095      	b.n	800d2c2 <tcp_enqueue_flags+0x1b2>
   }
   LWIP_ASSERT("tcp_enqueue_flags: check that first pbuf can hold optlen",
@@ -34365,7 +34365,7 @@ tcp_enqueue_flags(struct tcp_pcb *pcb, u8_t flags)
  800d1d8:	835a      	strh	r2, [r3, #26]
     TCP_STATS_INC(tcp.memerr);
     return ERR_MEM;
- 800d1da:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800d1da:	f04f 33ff 	mov.w	r3, #4294967295
  800d1de:	e070      	b.n	800d2c2 <tcp_enqueue_flags+0x1b2>
   }
   LWIP_ASSERT("seg->tcphdr not aligned", ((mem_ptr_t)seg->tcphdr % LWIP_MIN(MEM_ALIGNMENT, 4)) == 0);
@@ -36657,7 +36657,7 @@ tcp_keepalive(struct tcp_pcb *pcb)
     LWIP_DEBUGF(TCP_DEBUG,
                 ("tcp_keepalive: could not allocate memory for pbuf\n"));
     return ERR_MEM;
- 800e000:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800e000:	f04f 33ff 	mov.w	r3, #4294967295
  800e004:	e010      	b.n	800e028 <tcp_keepalive+0x6c>
   }
   tcp_output_fill_options(pcb, p, 0, optlen);
@@ -36800,7 +36800,7 @@ tcp_zero_window_probe(struct tcp_pcb *pcb)
  800e0da:	d102      	bne.n	800e0e2 <tcp_zero_window_probe+0xa6>
     LWIP_DEBUGF(TCP_DEBUG, ("tcp_zero_window_probe: no memory for pbuf\n"));
     return ERR_MEM;
- 800e0dc:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800e0dc:	f04f 33ff 	mov.w	r3, #4294967295
  800e0e0:	e04c      	b.n	800e17c <tcp_zero_window_probe+0x140>
   }
   tcphdr = (struct tcp_hdr *)p->payload;
@@ -37618,7 +37618,7 @@ udp_input_local_match(struct udp_pcb *pcb, struct netif *inp, u8_t broadcast)
  800e566:	4b17      	ldr	r3, [pc, #92]	; (800e5c4 <udp_input_local_match+0xc4>)
  800e568:	695b      	ldr	r3, [r3, #20]
         if (ip4_addr_isany(ip_2_ip4(&pcb->local_ip)) ||
- 800e56a:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 800e56a:	f1b3 3fff 	cmp.w	r3, #4294967295
  800e56e:	d00a      	beq.n	800e586 <udp_input_local_match+0x86>
             ip4_addr_netcmp(ip_2_ip4(&pcb->local_ip), ip4_current_dest_addr(), netif_ip4_netmask(inp))) {
  800e570:	68fb      	ldr	r3, [r7, #12]
@@ -37842,7 +37842,7 @@ udp_input(struct pbuf *p, struct netif *inp)
  800e690:	d014      	beq.n	800e6bc <udp_input+0xf4>
  800e692:	4b53      	ldr	r3, [pc, #332]	; (800e7e0 <udp_input+0x218>)
  800e694:	695b      	ldr	r3, [r3, #20]
- 800e696:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 800e696:	f1b3 3fff 	cmp.w	r3, #4294967295
  800e69a:	d10f      	bne.n	800e6bc <udp_input+0xf4>
           /* global broadcast address (only valid for IPv4; match was checked before) */
           if (!IP_IS_V4_VAL(uncon_pcb->local_ip) || !ip4_addr_cmp(ip_2_ip4(&uncon_pcb->local_ip), netif_ip4_addr(inp))) {
@@ -39164,7 +39164,7 @@ etharp_find_entry(const ip4_addr_t *ipaddr, u8_t flags, struct netif *netif)
  800ee16:	d102      	bne.n	800ee1e <etharp_find_entry+0x1be>
     LWIP_DEBUGF(ETHARP_DEBUG | LWIP_DBG_TRACE, ("etharp_find_entry: no empty entry found and not allowed to recycle\n"));
     return (s16_t)ERR_MEM;
- 800ee18:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800ee18:	f04f 33ff 	mov.w	r3, #4294967295
  800ee1c:	e085      	b.n	800ef2a <etharp_find_entry+0x2ca>
    *
    * { ETHARP_FLAG_TRY_HARD is set at this point }
@@ -39235,7 +39235,7 @@ etharp_find_entry(const ip4_addr_t *ipaddr, u8_t flags, struct netif *netif)
     } else {
       LWIP_DEBUGF(ETHARP_DEBUG | LWIP_DBG_TRACE, ("etharp_find_entry: no empty or recyclable entries found\n"));
       return (s16_t)ERR_MEM;
- 800ee7a:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800ee7a:	f04f 33ff 	mov.w	r3, #4294967295
  800ee7e:	e054      	b.n	800ef2a <etharp_find_entry+0x2ca>
     }
 
@@ -40755,7 +40755,7 @@ etharp_raw(struct netif *netif, const struct eth_addr *ethsrc_addr,
                 ("etharp_raw: could not allocate pbuf for ARP request.\n"));
     ETHARP_STATS_INC(etharp.memerr);
     return ERR_MEM;
- 800f7fe:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 800f7fe:	f04f 33ff 	mov.w	r3, #4294967295
  800f802:	e05d      	b.n	800f8c0 <etharp_raw+0xfc>
   }
   LWIP_ASSERT("check that first pbuf can hold struct etharp_hdr",
@@ -42568,7 +42568,7 @@ ip4_addr_isbroadcast_u32(u32_t addr, const struct netif *netif)
   /* all ones (broadcast) or all zeroes (old skool broadcast) */
   if ((~addr == IPADDR_ANY) ||
  801019a:	687b      	ldr	r3, [r7, #4]
- 801019c:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 801019c:	f1b3 3fff 	cmp.w	r3, #4294967295
  80101a0:	d002      	beq.n	80101a8 <ip4_addr_isbroadcast_u32+0x1c>
  80101a2:	687b      	ldr	r3, [r7, #4]
  80101a4:	2b00      	cmp	r3, #0
@@ -43267,7 +43267,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  8010584:	d202      	bcs.n	801058c <ip_reass_chain_frag_into_datagram_and_validate+0x48>
     /* invalid datagram */
     return IP_REASS_VALIDATE_PBUF_DROPPED;
- 8010586:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8010586:	f04f 33ff 	mov.w	r3, #4294967295
  801058a:	e135      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
   }
   len = (u16_t)(len - hlen);
@@ -43326,7 +43326,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  80105e2:	d902      	bls.n	80105ea <ip_reass_chain_frag_into_datagram_and_validate+0xa6>
     /* u16_t overflow, cannot handle this */
     return IP_REASS_VALIDATE_PBUF_DROPPED;
- 80105e4:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 80105e4:	f04f 33ff 	mov.w	r3, #4294967295
  80105e8:	e106      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
   }
 
@@ -43380,7 +43380,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  8010632:	d902      	bls.n	801063a <ip_reass_chain_frag_into_datagram_and_validate+0xf6>
           /* fragment overlaps with previous or following, throw away */
           return IP_REASS_VALIDATE_PBUF_DROPPED;
- 8010634:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8010634:	f04f 33ff 	mov.w	r3, #4294967295
  8010638:	e0de      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
         }
 #endif /* IP_REASS_CHECK_OVERLAP */
@@ -43419,7 +43419,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  8010662:	429a      	cmp	r2, r3
  8010664:	d902      	bls.n	801066c <ip_reass_chain_frag_into_datagram_and_validate+0x128>
           return IP_REASS_VALIDATE_PBUF_DROPPED;
- 8010666:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8010666:	f04f 33ff 	mov.w	r3, #4294967295
  801066a:	e0c5      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
         ipr->p = new_p;
  801066c:	68fb      	ldr	r3, [r7, #12]
@@ -43438,7 +43438,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  8010682:	d102      	bne.n	801068a <ip_reass_chain_frag_into_datagram_and_validate+0x146>
       /* received the same datagram twice: no need to keep the datagram */
       return IP_REASS_VALIDATE_PBUF_DROPPED;
- 8010684:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8010684:	f04f 33ff 	mov.w	r3, #4294967295
  8010688:	e0b6      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
 #if IP_REASS_CHECK_OVERLAP
     } else if (iprh->start < iprh_tmp->end) {
@@ -43452,7 +43452,7 @@ ip_reass_chain_frag_into_datagram_and_validate(struct ip_reassdata *ipr, struct 
  8010698:	d202      	bcs.n	80106a0 <ip_reass_chain_frag_into_datagram_and_validate+0x15c>
       /* overlap: no need to keep the new datagram */
       return IP_REASS_VALIDATE_PBUF_DROPPED;
- 801069a:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 801069a:	f04f 33ff 	mov.w	r3, #4294967295
  801069e:	e0ab      	b.n	80107f8 <ip_reass_chain_frag_into_datagram_and_validate+0x2b4>
 #endif /* IP_REASS_CHECK_OVERLAP */
     } else {
@@ -43961,7 +43961,7 @@ ip4_reass(struct pbuf *p)
  801099a:	6178      	str	r0, [r7, #20]
   if (valid == IP_REASS_VALIDATE_PBUF_DROPPED) {
  801099c:	697b      	ldr	r3, [r7, #20]
- 801099e:	f1b3 3fff 	cmp.w	r3, #4294967295	; 0xffffffff
+ 801099e:	f1b3 3fff 	cmp.w	r3, #4294967295
  80109a2:	f000 809b 	beq.w	8010adc <ip4_reass+0x2c4>
   /* if we come here, the pbuf has been enqueued */
 
@@ -44743,7 +44743,7 @@ ip4_frag(struct pbuf *p, struct netif *netif, const ip4_addr_t *dest)
 memerr:
   MIB2_STATS_INC(mib2.ipfragfails);
   return ERR_MEM;
- 8010e66:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 8010e66:	f04f 33ff 	mov.w	r3, #4294967295
 }
  8010e6a:	4618      	mov	r0, r3
  8010e6c:	3748      	adds	r7, #72	; 0x48
@@ -45266,7 +45266,7 @@ pbuf_header_failed:
  801120e:	f8df 9184 	ldr.w	r9, [pc, #388]	; 8011394 <_strtod_l+0x2a4>
  8011212:	e7e4      	b.n	80111de <_strtod_l+0xee>
  8011214:	f06f 4900 	mvn.w	r9, #2147483648	; 0x80000000
- 8011218:	f04f 38ff 	mov.w	r8, #4294967295	; 0xffffffff
+ 8011218:	f04f 38ff 	mov.w	r8, #4294967295
  801121c:	e7df      	b.n	80111de <_strtod_l+0xee>
  801121e:	9b11      	ldr	r3, [sp, #68]	; 0x44
  8011220:	1c5a      	adds	r2, r3, #1
@@ -45650,7 +45650,7 @@ pbuf_header_failed:
  80115ec:	4282      	cmp	r2, r0
  80115ee:	bf86      	itte	hi
  80115f0:	f8df 9088 	ldrhi.w	r9, [pc, #136]	; 801167c <_strtod_l+0x58c>
- 80115f4:	f04f 38ff 	movhi.w	r8, #4294967295	; 0xffffffff
+ 80115f4:	f04f 38ff 	movhi.w	r8, #4294967295
  80115f8:	f101 7954 	addls.w	r9, r1, #55574528	; 0x3500000
  80115fc:	2200      	movs	r2, #0
  80115fe:	9205      	str	r2, [sp, #20]
@@ -45725,7 +45725,7 @@ pbuf_header_failed:
  80116c2:	f340 812c 	ble.w	801191e <_strtod_l+0x82e>
  80116c6:	2a34      	cmp	r2, #52	; 0x34
  80116c8:	bfde      	ittt	le
- 80116ca:	f04f 32ff 	movle.w	r2, #4294967295	; 0xffffffff
+ 80116ca:	f04f 32ff 	movle.w	r2, #4294967295
  80116ce:	f1c1 014b 	rsble	r1, r1, #75	; 0x4b
  80116d2:	408a      	lslle	r2, r1
  80116d4:	f04f 0800 	mov.w	r8, #0
@@ -45944,7 +45944,7 @@ pbuf_header_failed:
  8011918:	2322      	movs	r3, #34	; 0x22
  801191a:	6023      	str	r3, [r4, #0]
  801191c:	e630      	b.n	8011580 <_strtod_l+0x490>
- 801191e:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+ 801191e:	f04f 31ff 	mov.w	r1, #4294967295
  8011922:	fa01 f202 	lsl.w	r2, r1, r2
  8011926:	ea02 0808 	and.w	r8, r2, r8
  801192a:	e6da      	b.n	80116e2 <_strtod_l+0x5f2>
@@ -45994,7 +45994,7 @@ pbuf_header_failed:
  80119ae:	4ba5      	ldr	r3, [pc, #660]	; (8011c44 <_strtod_l+0xb54>)
  80119b0:	ea09 0303 	and.w	r3, r9, r3
  80119b4:	f1b3 6fd4 	cmp.w	r3, #111149056	; 0x6a00000
- 80119b8:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+ 80119b8:	f04f 31ff 	mov.w	r1, #4294967295
  80119bc:	d81a      	bhi.n	80119f4 <_strtod_l+0x904>
  80119be:	0d1b      	lsrs	r3, r3, #20
  80119c0:	f1c3 036b 	rsb	r3, r3, #107	; 0x6b
@@ -46014,7 +46014,7 @@ pbuf_header_failed:
  80119e8:	2b00      	cmp	r3, #0
  80119ea:	d186      	bne.n	80118fa <_strtod_l+0x80a>
  80119ec:	e5c8      	b.n	8011580 <_strtod_l+0x490>
- 80119ee:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 80119ee:	f04f 33ff 	mov.w	r3, #4294967295
  80119f2:	e7e9      	b.n	80119c8 <_strtod_l+0x8d8>
  80119f4:	460b      	mov	r3, r1
  80119f6:	e7e7      	b.n	80119c8 <_strtod_l+0x8d8>
@@ -46037,7 +46037,7 @@ pbuf_header_failed:
  8011a26:	f5a3 1380 	sub.w	r3, r3, #1048576	; 0x100000
  8011a2a:	ea6f 5913 	mvn.w	r9, r3, lsr #20
  8011a2e:	ea6f 5909 	mvn.w	r9, r9, lsl #20
- 8011a32:	f04f 38ff 	mov.w	r8, #4294967295	; 0xffffffff
+ 8011a32:	f04f 38ff 	mov.w	r8, #4294967295
  8011a36:	e7d6      	b.n	80119e6 <_strtod_l+0x8f6>
  8011a38:	9b0b      	ldr	r3, [sp, #44]	; 0x2c
  8011a3a:	ea13 0f08 	tst.w	r3, r8
@@ -46098,7 +46098,7 @@ pbuf_header_failed:
  8011ae6:	3301      	adds	r3, #1
  8011ae8:	f43f ad40 	beq.w	801156c <_strtod_l+0x47c>
  8011aec:	f8df 9158 	ldr.w	r9, [pc, #344]	; 8011c48 <_strtod_l+0xb58>
- 8011af0:	f04f 38ff 	mov.w	r8, #4294967295	; 0xffffffff
+ 8011af0:	f04f 38ff 	mov.w	r8, #4294967295
  8011af4:	9912      	ldr	r1, [sp, #72]	; 0x48
  8011af6:	4620      	mov	r0, r4
  8011af8:	f000 ffba 	bl	8012a70 <_Bfree>
@@ -46719,7 +46719,7 @@ pbuf_header_failed:
 080120b2 <memcpy>:
  80120b2:	440a      	add	r2, r1
  80120b4:	4291      	cmp	r1, r2
- 80120b6:	f100 33ff 	add.w	r3, r0, #4294967295	; 0xffffffff
+ 80120b6:	f100 33ff 	add.w	r3, r0, #4294967295
  80120ba:	d100      	bne.n	80120be <memcpy+0xc>
  80120bc:	4770      	bx	lr
  80120be:	b510      	push	{r4, lr}
@@ -47014,7 +47014,7 @@ pbuf_header_failed:
  8012360:	f1a0 0210 	sub.w	r2, r0, #16
  8012364:	f811 0f01 	ldrb.w	r0, [r1, #1]!
  8012368:	f7ff ff76 	bl	8012258 <__hexdig_fun>
- 801236c:	f100 3cff 	add.w	ip, r0, #4294967295	; 0xffffffff
+ 801236c:	f100 3cff 	add.w	ip, r0, #4294967295
  8012370:	fa5f fc8c 	uxtb.w	ip, ip
  8012374:	f1bc 0f18 	cmp.w	ip, #24
  8012378:	d91d      	bls.n	80123b6 <__gethex+0x132>
@@ -47088,7 +47088,7 @@ pbuf_header_failed:
  8012426:	f000 ff6c 	bl	8013302 <__any_on>
  801242a:	4683      	mov	fp, r0
  801242c:	b1b8      	cbz	r0, 801245e <__gethex+0x1da>
- 801242e:	f108 33ff 	add.w	r3, r8, #4294967295	; 0xffffffff
+ 801242e:	f108 33ff 	add.w	r3, r8, #4294967295
  8012432:	1159      	asrs	r1, r3, #5
  8012434:	f003 021f 	and.w	r2, r3, #31
  8012438:	f85a 1021 	ldr.w	r1, [sl, r1, lsl #2]
@@ -47213,7 +47213,7 @@ pbuf_header_failed:
  801255c:	08016935 	.word	0x08016935
  8012560:	08016b37 	.word	0x08016b37
  8012564:	08016b48 	.word	0x08016b48
- 8012568:	f106 38ff 	add.w	r8, r6, #4294967295	; 0xffffffff
+ 8012568:	f106 38ff 	add.w	r8, r6, #4294967295
  801256c:	f1bb 0f00 	cmp.w	fp, #0
  8012570:	d133      	bne.n	80125da <__gethex+0x356>
  8012572:	f1b8 0f00 	cmp.w	r8, #0
@@ -47271,7 +47271,7 @@ pbuf_header_failed:
  8012606:	2300      	movs	r3, #0
  8012608:	4694      	mov	ip, r2
  801260a:	f852 1b04 	ldr.w	r1, [r2], #4
- 801260e:	f1b1 3fff 	cmp.w	r1, #4294967295	; 0xffffffff
+ 801260e:	f1b1 3fff 	cmp.w	r1, #4294967295
  8012612:	d01e      	beq.n	8012652 <__gethex+0x3ce>
  8012614:	3101      	adds	r1, #1
  8012616:	f8cc 1000 	str.w	r1, [ip]
@@ -47508,7 +47508,7 @@ pbuf_header_failed:
  801283c:	2b00      	cmp	r3, #0
  801283e:	d0df      	beq.n	8012800 <__hexnan+0xd4>
  8012840:	f1c3 0320 	rsb	r3, r3, #32
- 8012844:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 8012844:	f04f 32ff 	mov.w	r2, #4294967295
  8012848:	40da      	lsrs	r2, r3
  801284a:	f856 3c04 	ldr.w	r3, [r6, #-4]
  801284e:	4013      	ands	r3, r2
@@ -47552,7 +47552,7 @@ pbuf_header_failed:
  80128a0:	f001 f986 	bl	8013bb0 <_sbrk_r>
  80128a4:	3001      	adds	r0, #1
  80128a6:	d101      	bne.n	80128ac <sbrk_aligned+0x38>
- 80128a8:	f04f 34ff 	mov.w	r4, #4294967295	; 0xffffffff
+ 80128a8:	f04f 34ff 	mov.w	r4, #4294967295
  80128ac:	4620      	mov	r0, r4
  80128ae:	bd70      	pop	{r4, r5, r6, pc}
  80128b0:	2000aa74 	.word	0x2000aa74
@@ -48284,7 +48284,7 @@ pbuf_header_failed:
  8012fa8:	4283      	cmp	r3, r0
  8012faa:	d3f3      	bcc.n	8012f94 <__mcmp+0x18>
  8012fac:	e7fa      	b.n	8012fa4 <__mcmp+0x28>
- 8012fae:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 8012fae:	f04f 32ff 	mov.w	r2, #4294967295
  8012fb2:	e7f7      	b.n	8012fa4 <__mcmp+0x28>
 
 08012fb4 <__mdiff>:
@@ -48641,7 +48641,7 @@ pbuf_header_failed:
  801334a:	238a      	movhi	r3, #138	; 0x8a
  801334c:	6003      	strhi	r3, [r0, #0]
  801334e:	700a      	strbls	r2, [r1, #0]
- 8013350:	f04f 30ff 	movhi.w	r0, #4294967295	; 0xffffffff
+ 8013350:	f04f 30ff 	movhi.w	r0, #4294967295
  8013354:	bf98      	it	ls
  8013356:	2001      	movls	r0, #1
  8013358:	4770      	bx	lr
@@ -48719,7 +48719,7 @@ pbuf_header_failed:
  80133ee:	6e6b      	ldr	r3, [r5, #100]	; 0x64
  80133f0:	07dc      	lsls	r4, r3, #31
  80133f2:	d504      	bpl.n	80133fe <_vfiprintf_r+0x4e>
- 80133f4:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 80133f4:	f04f 30ff 	mov.w	r0, #4294967295
  80133f8:	b01d      	add	sp, #116	; 0x74
  80133fa:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
  80133fe:	89ab      	ldrh	r3, [r5, #12]
@@ -48759,7 +48759,7 @@ pbuf_header_failed:
  8013458:	2b00      	cmp	r3, #0
  801345a:	f000 80a1 	beq.w	80135a0 <_vfiprintf_r+0x1f0>
  801345e:	2300      	movs	r3, #0
- 8013460:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 8013460:	f04f 32ff 	mov.w	r2, #4294967295
  8013464:	e9cd 2305 	strd	r2, r3, [sp, #20]
  8013468:	f10a 0a01 	add.w	sl, sl, #1
  801346c:	9304      	str	r3, [sp, #16]
@@ -48826,7 +48826,7 @@ pbuf_header_failed:
  80134fc:	9203      	str	r2, [sp, #12]
  80134fe:	2b00      	cmp	r3, #0
  8013500:	bfb8      	it	lt
- 8013502:	f04f 33ff 	movlt.w	r3, #4294967295	; 0xffffffff
+ 8013502:	f04f 33ff 	movlt.w	r3, #4294967295
  8013506:	3402      	adds	r4, #2
  8013508:	9305      	str	r3, [sp, #20]
  801350a:	f8df a0d4 	ldr.w	sl, [pc, #212]	; 80135e0 <_vfiprintf_r+0x230>
@@ -48993,7 +48993,7 @@ pbuf_header_failed:
  8013682:	47c0      	blx	r8
  8013684:	3001      	adds	r0, #1
  8013686:	d103      	bne.n	8013690 <_printf_common+0xac>
- 8013688:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8013688:	f04f 30ff 	mov.w	r0, #4294967295
  801368c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
  8013690:	3501      	adds	r5, #1
  8013692:	e7c6      	b.n	8013622 <_printf_common+0x3e>
@@ -49139,7 +49139,7 @@ pbuf_header_failed:
  80137fc:	bfde      	ittt	le
  80137fe:	2330      	movle	r3, #48	; 0x30
  8013800:	f805 3c01 	strble.w	r3, [r5, #-1]
- 8013804:	f105 35ff 	addle.w	r5, r5, #4294967295	; 0xffffffff
+ 8013804:	f105 35ff 	addle.w	r5, r5, #4294967295
  8013808:	1b52      	subs	r2, r2, r5
  801380a:	6122      	str	r2, [r4, #16]
  801380c:	f8cd a000 	str.w	sl, [sp]
@@ -49150,7 +49150,7 @@ pbuf_header_failed:
  8013818:	f7ff fee4 	bl	80135e4 <_printf_common>
  801381c:	3001      	adds	r0, #1
  801381e:	d14a      	bne.n	80138b6 <_printf_i+0x1f6>
- 8013820:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8013820:	f04f 30ff 	mov.w	r0, #4294967295
  8013824:	b004      	add	sp, #16
  8013826:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
  801382a:	6823      	ldr	r3, [r4, #0]
@@ -49369,7 +49369,7 @@ pbuf_header_failed:
  80139f4:	89a3      	ldrh	r3, [r4, #12]
  80139f6:	f043 0340 	orr.w	r3, r3, #64	; 0x40
  80139fa:	81a3      	strh	r3, [r4, #12]
- 80139fc:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 80139fc:	f04f 30ff 	mov.w	r0, #4294967295
  8013a00:	e78e      	b.n	8013920 <__sflush_r+0x1c>
  8013a02:	4407      	add	r7, r0
  8013a04:	eba8 0800 	sub.w	r8, r8, r0
@@ -49485,7 +49485,7 @@ pbuf_header_failed:
  8013af0:	f000 f806 	bl	8013b00 <__swsetup_r>
  8013af4:	2800      	cmp	r0, #0
  8013af6:	d0d5      	beq.n	8013aa4 <__swbuf_r+0x20>
- 8013af8:	f04f 37ff 	mov.w	r7, #4294967295	; 0xffffffff
+ 8013af8:	f04f 37ff 	mov.w	r7, #4294967295
  8013afc:	e7f4      	b.n	8013ae8 <__swbuf_r+0x64>
 	...
 
@@ -49509,7 +49509,7 @@ pbuf_header_failed:
  8013b24:	602b      	str	r3, [r5, #0]
  8013b26:	f042 0340 	orr.w	r3, r2, #64	; 0x40
  8013b2a:	81a3      	strh	r3, [r4, #12]
- 8013b2c:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8013b2c:	f04f 30ff 	mov.w	r0, #4294967295
  8013b30:	e034      	b.n	8013b9c <__swsetup_r+0x9c>
  8013b32:	0758      	lsls	r0, r3, #29
  8013b34:	d512      	bpl.n	8013b5c <__swsetup_r+0x5c>
@@ -49699,7 +49699,7 @@ pbuf_header_failed:
  8013cd6:	d904      	bls.n	8013ce2 <_raise_r+0x14>
  8013cd8:	2316      	movs	r3, #22
  8013cda:	6003      	str	r3, [r0, #0]
- 8013cdc:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8013cdc:	f04f 30ff 	mov.w	r0, #4294967295
  8013ce0:	bd38      	pop	{r3, r4, r5, pc}
  8013ce2:	6bc2      	ldr	r2, [r0, #60]	; 0x3c
  8013ce4:	b112      	cbz	r2, 8013cec <_raise_r+0x1e>

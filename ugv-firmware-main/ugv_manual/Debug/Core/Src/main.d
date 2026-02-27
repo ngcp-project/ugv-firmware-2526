@@ -71,8 +71,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h \
- /home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/Drivers/ugv_drivers/servo/ugv_servo.h \
- /home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/Drivers/ugv_drivers/drive_motor/motor_control.h
+ C:/Users/djspe/ugv-firmware-2526/ugv-firmware-main/ugv_manual/Drivers/ugv_drivers/servo/ugv_servo.h \
+ C:/Users/djspe/ugv-firmware-2526/ugv-firmware-main/ugv_manual/Drivers/ugv_drivers/drive_motor/motor_control.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -146,5 +146,5 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h:
-/home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/Drivers/ugv_drivers/servo/ugv_servo.h:
-/home/chris/NGCP/NGCP_UGV_24_25/ugv-firmware/ugv_manual/Drivers/ugv_drivers/drive_motor/motor_control.h:
+C:/Users/djspe/ugv-firmware-2526/ugv-firmware-main/ugv_manual/Drivers/ugv_drivers/servo/ugv_servo.h:
+C:/Users/djspe/ugv-firmware-2526/ugv-firmware-main/ugv_manual/Drivers/ugv_drivers/drive_motor/motor_control.h:
