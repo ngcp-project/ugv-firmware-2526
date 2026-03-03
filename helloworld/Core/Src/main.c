@@ -116,30 +116,6 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM13_Init();
   /* USER CODE BEGIN 2 */
-#include "lwip/netif.h"
-#include "lwip/ip4_addr.h"
-#include <string.h>
-#include <stdio.h>
-
-extern struct netif gnetif;
-extern UART_HandleTypeDef huart3;
-
-void print_ip_uart(void)
-{
-  char buf[128];
-
-  snprintf(buf, sizeof(buf),
-           "IP: %s\r\nMASK: %s\r\nGW: %s\r\n",
-           ip4addr_ntoa(netif_ip4_addr(&gnetif)),
-           ip4addr_ntoa(netif_ip4_netmask(&gnetif)),
-           ip4addr_ntoa(netif_ip4_gw(&gnetif)));
-
-  HAL_UART_Transmit(&huart3, (uint8_t*)buf, strlen(buf), HAL_MAX_DELAY);
-}
-
-MX_LWIP_Init();
-HAL_Delay(1000);
-print_ip_uart();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -147,9 +123,7 @@ print_ip_uart();
   while (1)
   {
     /* USER CODE END WHILE */
-
-
-
+	  MX_LWIP_Process();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
